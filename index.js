@@ -1,5 +1,16 @@
 #!/usr/bin/env node
+import { count } from "./util";
+const note = process.argv[2];
 
-console.log('lmao');
+const newNote = {
+  content: note,
+  id : Date.now()
 
-console.log('lmao');  
+};
+
+console.log(newNote);
+
+
+(() => {
+  console.log('IIFE');
+})();

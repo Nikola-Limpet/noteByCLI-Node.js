@@ -2,6 +2,7 @@
   "name": "to-doapp",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "bin" : {
     "to-doapp" : "./index.js"
   },
